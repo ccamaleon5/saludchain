@@ -11,5 +11,6 @@ type DoctorAddData struct {
 	Name       string        `bson:"name" json:"name" mapstructure:"name"`
 	LastName   string        `bson:"lastName" json:"lastName" mapstructure:"lastName"`
 	PublicKey  string        `bson:"publicKey" json:"publicKey" mapstructure:"publicKey"`
+	HashCredential  string          `bson:"hashCredential" json:"hashCredential" mapstructure:"hashCredential"`
 	Speciality string        `bson:"speciality" json:"speciality" mapstructure:"speciality"` 
 }
